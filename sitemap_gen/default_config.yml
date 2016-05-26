@@ -1,0 +1,16 @@
+default:
+  sitemap_urls_count: 50000
+  sitemap_uncompressed_filesize: 10485760
+  sitemapindex_sitemaps_count: 50000
+  sitemapindex_uncompressed_filesize: 10485760
+
+google:
+  sitemapindex_count: 500
+  pinger_address: 'http://www.google.com/webmasters/tools/ping?sitemap='
+
+yandex:
+  sitemapindex_count: 1000
+  pinger_address: 'http://blogs.yandex.ru/pings'
+
+bing:
+  pinger_address: 'http://www.bing.com/ping?sitemap='
